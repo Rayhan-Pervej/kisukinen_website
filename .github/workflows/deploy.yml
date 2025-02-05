@@ -24,10 +24,11 @@ jobs:
       - name: Build and export Next.js project
         run: npm run deploy
 
-      - name: Configure Git
+      - name: Configure Git Identity
         run: |
           git config --global user.name "Rayhan Pervej"
           git config --global user.email "rayhanp1011@gmail.com"
+          git config --global init.defaultBranch master
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
