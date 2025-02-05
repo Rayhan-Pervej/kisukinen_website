@@ -5,7 +5,6 @@ import { faFacebook, faInstagram, faXTwitter, faCcVisa, faCcAmazonPay, faCcMaste
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Link from 'next/link'
-import SearchBar from '../Navbar/SearchBar';
 
 const Footer = () => {
     return (

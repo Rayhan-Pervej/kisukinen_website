@@ -2,7 +2,6 @@
 import Link from 'next/link';
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
-import { transform } from 'next/dist/build/swc/generated-native';
 const slides = [
     {
         id: 1,

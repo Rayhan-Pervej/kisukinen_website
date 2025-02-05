@@ -15,7 +15,7 @@ const CategorySlider = () => {
         const slider = document.getElementById("slider");
         if (slider) {
             const maxScroll = slider.scrollWidth - slider.clientWidth;
-            let newPosition =
+            const newPosition =
                 direction === "left"
                     ? Math.max(scrollPosition - scrollAmount, 0)
                     : Math.min(scrollPosition + scrollAmount, maxScroll);
