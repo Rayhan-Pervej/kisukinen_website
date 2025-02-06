@@ -1,7 +1,6 @@
 'use client';
 import React from 'react';
 import Filter from '@/components/Filter/Filter';
-import FeaturedProduct from '@/components/Featured_Product/FeaturedProduct';
 import ProductList from '@/components/Product_List/ProductList';
 
 const ListPage = () => {
