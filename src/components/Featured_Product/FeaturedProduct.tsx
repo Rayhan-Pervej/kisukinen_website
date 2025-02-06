@@ -13,7 +13,6 @@ const FeaturedProduct = () => {
 
             {/* Products card Design */}
 
-
             <Link href="/" className='gap-y-2 pb-3 shadow-[0_0_10px_2px_rgba(0,0,0,1)] shadow-slate-800  rounded-md  w-[45%] flex flex-col  sm:w-[27%] md:w-[24%] lg:w-[21%] xl:w-[18%] 2xl:w-[15%]'>
                 <div className='relative w-full aspect-square'>
                     <Image src="https://fabrilife.com/products/6429070600457-square.jpg?v=20"
@@ -33,10 +32,10 @@ const FeaturedProduct = () => {
                 </div>
                 <div className='px-2 text-sm text-gray-500 '><p className='line-clamp-2'>This product is best. It looks good on you. Wear it Daily Events.</p></div>
                 <div className='flex flex-row items-center gap-x-2 justify-between'>
-                    <button className="rounded-xl ring-1 ring-black text-black ml-2 py-3 px-4 w-full text-xs font-bold hover:bg-black hover:text-white hover:shadow-lg hover:shadow-slate-600 items-center flex justify-center">
+                    <button className="rounded-xl ring-1 ring-black text-black ml-2 py-3 px-2 w-full text-xs font-bold hover:bg-black hover:text-white hover:shadow-lg hover:shadow-slate-600 items-center flex justify-center">
                         Add to Cart
                     </button>
-                    <button className="rounded-xl ring-1 ring-black text-black mr-2 py-3 px-4 w-max text-md font-bold hover:bg-black hover:text-white hover:shadow-lg hover:shadow-slate-600 items-center flex justify-center h-full">
+                    <button className="rounded-xl ring-1 ring-black text-black mr-2 py-3 px-3 md:px-4 w-max text-md font-bold hover:bg-black hover:text-white hover:shadow-lg hover:shadow-slate-600 items-center flex justify-center h-full">
                         <FontAwesomeIcon icon={faHeart} className='cursor-pointer' />
                     </button>
                 </div>
@@ -62,16 +61,15 @@ const FeaturedProduct = () => {
                 </div>
                 <div className='px-2 text-sm text-gray-500 '><p className='line-clamp-2'>This product is best. It looks good on you. Wear it Daily Events.</p></div>
                 <div className='flex flex-row items-center gap-x-2 justify-between'>
-                    <button className="rounded-xl ring-1 ring-black text-black ml-2 py-3 px-4 w-full text-xs font-bold hover:bg-black hover:text-white hover:shadow-lg hover:shadow-slate-600 items-center flex justify-center">
+                    <button className="rounded-xl ring-1 ring-black text-black ml-2 py-3 px-2 w-full text-xs font-bold hover:bg-black hover:text-white hover:shadow-lg hover:shadow-slate-600 items-center flex justify-center">
                         Add to Cart
                     </button>
-                    <button className="rounded-xl ring-1 ring-black text-black mr-2 py-3 px-4 w-max text-md font-bold hover:bg-black hover:text-white hover:shadow-lg hover:shadow-slate-600 items-center flex justify-center h-full">
+                    <button className="rounded-xl ring-1 ring-black text-black mr-2 py-3 px-3 md:px-4 w-max text-md font-bold hover:bg-black hover:text-white hover:shadow-lg hover:shadow-slate-600 items-center flex justify-center h-full">
                         <FontAwesomeIcon icon={faHeart} className='cursor-pointer' />
                     </button>
                 </div>
 
             </Link>
-
 
 
             <Link href="/" className='gap-y-2 pb-3 shadow-[0_0_10px_2px_rgba(0,0,0,1)] shadow-slate-800  rounded-md  w-[45%] flex flex-col  sm:w-[27%] md:w-[24%] lg:w-[21%] xl:w-[18%] 2xl:w-[15%]'>
@@ -93,16 +91,15 @@ const FeaturedProduct = () => {
                 </div>
                 <div className='px-2 text-sm text-gray-500 '><p className='line-clamp-2'>This product is best. It looks good on you. Wear it Daily Events.</p></div>
                 <div className='flex flex-row items-center gap-x-2 justify-between'>
-                    <button className="rounded-xl ring-1 ring-black text-black ml-2 py-3 px-4 w-full text-xs font-bold hover:bg-black hover:text-white hover:shadow-lg hover:shadow-slate-600 items-center flex justify-center">
+                    <button className="rounded-xl ring-1 ring-black text-black ml-2 py-3 px-2 w-full text-xs font-bold hover:bg-black hover:text-white hover:shadow-lg hover:shadow-slate-600 items-center flex justify-center">
                         Add to Cart
                     </button>
-                    <button className="rounded-xl ring-1 ring-black text-black mr-2 py-3 px-4 w-max text-md font-bold hover:bg-black hover:text-white hover:shadow-lg hover:shadow-slate-600 items-center flex justify-center h-full">
+                    <button className="rounded-xl ring-1 ring-black text-black mr-2 py-3 px-3 md:px-4 w-max text-md font-bold hover:bg-black hover:text-white hover:shadow-lg hover:shadow-slate-600 items-center flex justify-center h-full">
                         <FontAwesomeIcon icon={faHeart} className='cursor-pointer' />
                     </button>
                 </div>
 
             </Link>
-
 
 
             <Link href="/" className='gap-y-2 pb-3 shadow-[0_0_10px_2px_rgba(0,0,0,1)] shadow-slate-800  rounded-md  w-[45%] flex flex-col  sm:w-[27%] md:w-[24%] lg:w-[21%] xl:w-[18%] 2xl:w-[15%]'>
@@ -124,16 +121,15 @@ const FeaturedProduct = () => {
                 </div>
                 <div className='px-2 text-sm text-gray-500 '><p className='line-clamp-2'>This product is best. It looks good on you. Wear it Daily Events.</p></div>
                 <div className='flex flex-row items-center gap-x-2 justify-between'>
-                    <button className="rounded-xl ring-1 ring-black text-black ml-2 py-3 px-4 w-full text-xs font-bold hover:bg-black hover:text-white hover:shadow-lg hover:shadow-slate-600 items-center flex justify-center">
+                    <button className="rounded-xl ring-1 ring-black text-black ml-2 py-3 px-2 w-full text-xs font-bold hover:bg-black hover:text-white hover:shadow-lg hover:shadow-slate-600 items-center flex justify-center">
                         Add to Cart
                     </button>
-                    <button className="rounded-xl ring-1 ring-black text-black mr-2 py-3 px-4 w-max text-md font-bold hover:bg-black hover:text-white hover:shadow-lg hover:shadow-slate-600 items-center flex justify-center h-full">
+                    <button className="rounded-xl ring-1 ring-black text-black mr-2 py-3 px-3 md:px-4 w-max text-md font-bold hover:bg-black hover:text-white hover:shadow-lg hover:shadow-slate-600 items-center flex justify-center h-full">
                         <FontAwesomeIcon icon={faHeart} className='cursor-pointer' />
                     </button>
                 </div>
 
             </Link>
-
 
 
             <Link href="/" className='gap-y-2 pb-3 shadow-[0_0_10px_2px_rgba(0,0,0,1)] shadow-slate-800  rounded-md  w-[45%] flex flex-col  sm:w-[27%] md:w-[24%] lg:w-[21%] xl:w-[18%] 2xl:w-[15%]'>
@@ -155,10 +151,10 @@ const FeaturedProduct = () => {
                 </div>
                 <div className='px-2 text-sm text-gray-500 '><p className='line-clamp-2'>This product is best. It looks good on you. Wear it Daily Events.</p></div>
                 <div className='flex flex-row items-center gap-x-2 justify-between'>
-                    <button className="rounded-xl ring-1 ring-black text-black ml-2 py-3 px-4 w-full text-xs font-bold hover:bg-black hover:text-white hover:shadow-lg hover:shadow-slate-600 items-center flex justify-center">
+                    <button className="rounded-xl ring-1 ring-black text-black ml-2 py-3 px-2 w-full text-xs font-bold hover:bg-black hover:text-white hover:shadow-lg hover:shadow-slate-600 items-center flex justify-center">
                         Add to Cart
                     </button>
-                    <button className="rounded-xl ring-1 ring-black text-black mr-2 py-3 px-4 w-max text-md font-bold hover:bg-black hover:text-white hover:shadow-lg hover:shadow-slate-600 items-center flex justify-center h-full">
+                    <button className="rounded-xl ring-1 ring-black text-black mr-2 py-3 px-3 md:px-4 w-max text-md font-bold hover:bg-black hover:text-white hover:shadow-lg hover:shadow-slate-600 items-center flex justify-center h-full">
                         <FontAwesomeIcon icon={faHeart} className='cursor-pointer' />
                     </button>
                 </div>

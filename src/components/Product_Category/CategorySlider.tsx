@@ -35,7 +35,7 @@ const CategorySlider = () => {
                 {categoryList.map((category) => (
                     <Link
                         href="/"
-                        className=" rounded-md  flex-shrink-0  relative w-40 sm:w-1/3 md:w-1/4 lg:w-1/5 xl:w-1/6"
+                        className=" rounded-md  flex-shrink-0  relative w-2/5 sm:w-1/3 md:w-1/4 lg:w-1/5 xl:w-1/6"
                         key={category.id}
                     >
                         <div className="w-full aspect-[3/4] ">

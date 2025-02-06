@@ -10,7 +10,7 @@ export default function Home() {
     <div className="bg-slate-100">
       <Slider />
 
-      <div className="relative mt-16 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64">
+      <div className="relative mt-14 md:mt-16 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64">
         <h1 className="text-3xl mb-4 font-semibold text-center">Featured Products</h1>
         <div className="relative asp w-full h-96">
           <Image
@@ -27,16 +27,16 @@ export default function Home() {
           <FeaturedProduct />
         </div>
       </div>
-      <div className="mt-16 px-4 ">
+      <div className="mt-14 md:mt-16  px-4 ">
         <h1 className="text-3xl mb-4 font-semibold text-center">Categories</h1>
         <CategorySlider />
       </div>
 
-      <div className="mt-20 px-4">
+      <div className="mt-14 md:mt-16  px-4">
         <HightLightCollection/>
       </div>
 
-      <div className="mt-20">
+      <div className="mt-14 md:mt-16 ">
         <SmallTextBanner/>
       </div>
 
