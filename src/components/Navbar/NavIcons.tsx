@@ -9,7 +9,7 @@ const NavIcons = () => {
   const [isProfileOpen, setIsProfileOpen] = useState(false);
   const [isCartOpen, setCartOpen] = useState(false);
   const router = useRouter();
-  const isLoggedIn = false;
+  const isLoggedIn = true;
   const handleProfile = () => {
     if (!isLoggedIn) {
       router.push(`/login`);
@@ -21,7 +21,7 @@ const NavIcons = () => {
       <FontAwesomeIcon icon={faUser} onClick={handleProfile} className='cursor-pointer' />
       {
         isProfileOpen && (
-          <div className='absolute p-4 rounded-md top-12 left-0 text-sm shadow-md z-20'>
+          <div className='absolute p-4 bg-white rounded-md top-12 left-0 text-sm shadow-md z-20'>
             <Link href='/'> Profile</Link>
             <div className='mt-2 cursor-pointer'> Lgout</div>
           </div>
