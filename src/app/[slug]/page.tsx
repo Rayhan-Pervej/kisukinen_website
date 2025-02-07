@@ -3,7 +3,7 @@ import ProductDescription from '@/components/Product_Description/ProductDescrtip
 import SelectQuantity from '@/components/Product_Description/SelectQuantity';
 import SelectSize from '@/components/Product_Description/SelectSize';
 import ProductImages from '@/components/Product_Images/ProductImges';
-import { useRouter } from 'next/router';
+import { useParams } from 'next/navigation';
 
 // Function to generate static params
 export async function generateStaticParams() {
@@ -20,8 +20,8 @@ export async function generateStaticParams() {
 }
 
 const ProductPage = () => {
-    const router = useRouter();
-    const { slug } = router.query;
+    const params = useParams();
+    const { slug } = params;
     if (!slug) {
         return <div>Loading...</div>;
     }
