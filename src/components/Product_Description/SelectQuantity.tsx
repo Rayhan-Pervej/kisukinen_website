@@ -26,7 +26,7 @@ const SelectQuantity = () => {
                     {quantity}
                     <button className="text-lg font-bold cursor-pointer px-4" onClick={() => handleQuanity('i')} ><FontAwesomeIcon icon={faAdd} className='cursor-pointer' /></button>
                 </div>
-                <div className="text-sm font-semibold"> Only <span className="text-orange-700">20 items</span> left! Don't mis it.</div>
+                <div className="text-sm font-semibold"> Only <span className="text-orange-700">20 items</span> left! Don&apos;t mis it.</div>
             </div>
             <button className="rounded-xl ring-1 ring-black py-3 px-2 w-1/2 text-sm md:text-base font-bold bg-black text-white hover:shadow-lg hover:shadow-slate-600 items-center flex justify-center disabled:cursor-not-allowed disabled:bg-slate-300 disabled:ring-slate-300 disabled:text-slate-500 disabled:shadow-red-600">
                 Add to Cart
