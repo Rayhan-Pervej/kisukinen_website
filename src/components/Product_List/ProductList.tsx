@@ -15,7 +15,7 @@ const ProductList = () => {
 
 
 
-            <Link href="/" className='gap-y-0.5 pb-2 shadow-[0_0_10px_2px_rgba(0,0,0,1)] shadow-slate-800  rounded-md  w-[45%] flex flex-col  sm:w-[27%] md:w-[24%] lg:w-[21%] xl:w-[18%] 2xl:w-[15%]'>
+            <Link href="/[slug]" as={`/product1`} className='gap-y-0.5 pb-2 shadow-[0_0_10px_2px_rgba(0,0,0,1)] shadow-slate-800  rounded-md  w-[45%] flex flex-col  sm:w-[27%] md:w-[24%] lg:w-[21%] xl:w-[18%] 2xl:w-[15%]'>
                 <div className='relative w-full aspect-square'>
                     <Image src="https://fabrilife.com/products/6429070600457-square.jpg?v=20"
                         className='absolute object-cover rounded-md z-10 hover:opacity-0 transition-opacity ease duration-500'

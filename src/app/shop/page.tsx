@@ -3,7 +3,7 @@ import React from 'react';
 import Filter from '@/components/Filter/Filter';
 import ProductList from '@/components/Product_List/ProductList';
 
-const ListPage = () => {
+const shop = () => {
   return (
     <div className=' relative'>
       {/* CAMPAIGN */}
@@ -25,4 +25,4 @@ const ListPage = () => {
   )
 }
 
-export default ListPage
+export default shop
