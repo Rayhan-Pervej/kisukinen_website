@@ -1,5 +1,10 @@
 import ProductPage from "@/components/Temporary/ProductPage";
 
+interface PageProps {
+    params: {
+        slug: string;
+    };
+}
 
 export async function generateStaticParams() {
     const products = [
@@ -13,6 +18,6 @@ export async function generateStaticParams() {
     }));
 }
 
-export default function ProductPageWrapper({ params }: { params: { slug: string } }) {
+export default function ProductPageWrapper({ params }: PageProps) {
     return <ProductPage slug={params.slug} />;
 }
